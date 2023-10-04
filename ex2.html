@@ -6,5 +6,6 @@ html <html lang="en">
 </head>
 <body>
     <h1>Exercice 1 : graphique Google Sheet</h1>
-  https://query.wikidata.org/sparql?query=SELECT%20%3FEurope%20%3FEuropeLabel%20%3Fpopulation%20%3Flocator_map_image%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3FEurope%20wdt%3AP30%20wd%3AQ46.%0A%20%20OPTIONAL%20%7B%20%3FEurope%20wdt%3AP1082%20%3Fpopulation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3FEurope%20wdt%3AP242%20%3Flocator_map_image.%20%7D%0A%7D%0ALIMIT%20100
+    <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3FEurope%20%3FEuropeLabel%20%3Fpopulation%20%3Flocator_map_image%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3FEurope%20wdt%3AP30%20wd%3AQ46.%0A%20%20OPTIONAL%20%7B%20%3FEurope%20wdt%3AP1082%20%3Fpopulation.%20%7D%0A%20%20OPTIONAL%20%7B%20%3FEurope%20wdt%3AP242%20%3Flocator_map_image.%20%7D%0A%7D%0ALIMIT%20100" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</body>
 </html>
